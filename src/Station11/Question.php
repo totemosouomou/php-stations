@@ -11,6 +11,7 @@ class Question
         $lessThanBudgetSweets = $this->getSweetsLessThanBudget($sweets, $budget);
         // $keys = array_rand($lessThanBudgetSweets, 3);
         // $selectedSweets = array_intersect_key($lessThanBudgetSweets, array_flip($keys));
+        // [$totalPrice, $randomKeys] = $this->getRandomKeys($lessThanBudgetSweets, $budget);
         $randomKeys = $this->getRandomKeys($lessThanBudgetSweets, $budget);
         $combination = $this->makeCombination($lessThanBudgetSweets, $randomKeys);
 
@@ -41,6 +42,7 @@ class Question
             $totalPrice = array_sum(array_column($selectedSweets, 'price'));
         } while ($totalPrice > $budget);
 
+        // return [$totalPrice, $keys];
         return $keys;
     }
 
