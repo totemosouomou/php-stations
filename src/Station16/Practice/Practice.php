@@ -8,7 +8,12 @@ class Practice
 {
     public function main(): void
     {
-        // ここにサンプルコードを記述
+        $dog = new Dog('Pochi');
+        $dog->run();
+        echo $dog->age;
+        echo $dog->addAge(1);
+        $dog2 = new Dog('Hashi');
+        echo $dog->walkWithDog($dog2);
     }
 }
 
