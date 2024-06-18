@@ -4,11 +4,11 @@ namespace Src\Station14\Practice;
 
 class Dog extends Animal
 {
-    private const VOICE = 'wan';
-    public const LEGS = 4;
+    private static $VOICE = 'wan';
+    public static $LEGS = 4;
 
-    public function barking()
+    public static function barking()
     {
-        echo self::VOICE;
+        echo self::$VOICE;
     }
 }

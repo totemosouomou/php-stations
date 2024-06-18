@@ -8,7 +8,7 @@ class Practice
 {
     public function main(): void
     {
-        // ここにサンプルコードを記述
+        Dog::barking();
     }
 }
 
