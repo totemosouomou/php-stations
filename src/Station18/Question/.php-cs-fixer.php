@@ -10,7 +10,6 @@ return (new PhpCsFixer\Config())
         'ordered_class_elements' => ['order' => [
             'public', 'protected', 'private', // Class内のメソッドをpublic, protected, privateの順で並び替える
         ]],
-        // 'trailing_comma_in_multiline' => ['elements' => ['arrays']],
     ])
     ->setUsingCache(false)
     ->setFinder($finder);
