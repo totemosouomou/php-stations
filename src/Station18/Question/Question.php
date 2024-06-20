@@ -11,7 +11,6 @@ class Question
             return true;
         }
         return false;
-
     }
     private function getArray(): array
     {

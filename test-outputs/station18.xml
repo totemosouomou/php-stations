@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="/app/tests/Station18" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="15.769191">
-    <testsuite name="Tests\Station18\Question\QuestionTest" file="/app/tests/Station18/Question/QuestionTest.php" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="15.769191">
-      <testcase name="getArray関数内の配列の宣言がshortである" class="Tests\Station18\Question\QuestionTest" classname="Tests.Station18.Question.QuestionTest" file="/app/tests/Station18/Question/QuestionTest.php" line="21" assertions="1" time="1.769517"/>
-      <testcase name="関数の順序が正しくならんでいる" class="Tests\Station18\Question\QuestionTest" classname="Tests.Station18.Question.QuestionTest" file="/app/tests/Station18/Question/QuestionTest.php" line="31" assertions="1" time="0.066552"/>
-      <testcase name="elseが使用されていないこと" class="Tests\Station18\Question\QuestionTest" classname="Tests.Station18.Question.QuestionTest" file="/app/tests/Station18/Question/QuestionTest.php" line="45" assertions="1" time="0.073167"/>
-      <testcase name="php_cs_fixerの結果確認" class="Tests\Station18\Question\QuestionTest" classname="Tests.Station18.Question.QuestionTest" file="/app/tests/Station18/Question/QuestionTest.php" line="55" assertions="1" time="13.859955">
-        <system-out>array(2) {
-  [0]=&gt;
-  string(0) ""
-  [1]=&gt;
-  string(76) "Found 0 of 1 files that can be fixed in 0.560 seconds, 14.000 MB memory used"
-}
-</system-out>
-      </testcase>
+  <testsuite name="/app/tests/Station18" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="14.588584">
+    <testsuite name="Tests\Station18\Question\QuestionTest" file="/app/tests/Station18/Question/QuestionTest.php" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="14.588584">
+      <testcase name="getArray関数内の配列の宣言がshortである" class="Tests\Station18\Question\QuestionTest" classname="Tests.Station18.Question.QuestionTest" file="/app/tests/Station18/Question/QuestionTest.php" line="21" assertions="1" time="2.093345"/>
+      <testcase name="関数の順序が正しくならんでいる" class="Tests\Station18\Question\QuestionTest" classname="Tests.Station18.Question.QuestionTest" file="/app/tests/Station18/Question/QuestionTest.php" line="31" assertions="1" time="0.092505"/>
+      <testcase name="elseが使用されていないこと" class="Tests\Station18\Question\QuestionTest" classname="Tests.Station18.Question.QuestionTest" file="/app/tests/Station18/Question/QuestionTest.php" line="45" assertions="1" time="0.058821"/>
+      <testcase name="php_cs_fixerの結果確認" class="Tests\Station18\Question\QuestionTest" classname="Tests.Station18.Question.QuestionTest" file="/app/tests/Station18/Question/QuestionTest.php" line="55" assertions="1" time="12.343911"/>
     </testsuite>
   </testsuite>
 </testsuites>
