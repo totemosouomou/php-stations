@@ -4,7 +4,6 @@ namespace Src\Station18\Question;
 
 class Question
 {
-
     public function main(): bool
     {
         $array = $this->getArray();
